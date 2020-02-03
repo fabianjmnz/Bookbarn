@@ -22,8 +22,8 @@ function Login(props){
         <div>
     <h1>Hello {props.username}</h1>
            <button onClick={()=>props.offUsername()}>Logoff </button>
+           <div>somthing</div>
         </div>
-        <div>somthing</div>
       )
     }
   }
